@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCEDBAAB28DB616700B56644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAA28DB616700B56644 /* AppDelegate.swift */; };
+		DCEDBAAD28DB616700B56644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */; };
+		DCEDBAAF28DB616700B56644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAE28DB616700B56644 /* ViewController.swift */; };
+		DCEDBAB228DB616700B56644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEDBAB028DB616700B56644 /* Main.storyboard */; };
+		DCEDBAB528DB616700B56644 /* SimpleMapApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAB328DB616700B56644 /* SimpleMapApp.xcdatamodeld */; };
+		DCEDBAB728DB616800B56644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEDBAB628DB616800B56644 /* Assets.xcassets */; };
+		DCEDBABA28DB616800B56644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEDBAB828DB616800B56644 /* LaunchScreen.storyboard */; };
+		DCEDBAC528DB616800B56644 /* SimpleMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAC428DB616800B56644 /* SimpleMapAppTests.swift */; };
+		DCEDBACF28DB616800B56644 /* SimpleMapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBACE28DB616800B56644 /* SimpleMapAppUITests.swift */; };
+		DCEDBAD128DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAD028DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEDBAC128DB616800B56644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEDBA9F28DB616600B56644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEDBAA628DB616600B56644;
+			remoteInfo = SimpleMapApp;
+		};
+		DCEDBACB28DB616800B56644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEDBA9F28DB616600B56644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEDBAA628DB616600B56644;
+			remoteInfo = SimpleMapApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCEDBAA728DB616700B56644 /* SimpleMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDBAAA28DB616700B56644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCEDBAAE28DB616700B56644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCEDBAB128DB616700B56644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCEDBAB428DB616700B56644 /* SimpleMapApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleMapApp.xcdatamodel; sourceTree = "<group>"; };
+		DCEDBAB628DB616800B56644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCEDBAB928DB616800B56644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCEDBABB28DB616800B56644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEDBAC028DB616800B56644 /* SimpleMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDBAC428DB616800B56644 /* SimpleMapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapAppTests.swift; sourceTree = "<group>"; };
+		DCEDBACA28DB616800B56644 /* SimpleMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEDBACE28DB616800B56644 /* SimpleMapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapAppUITests.swift; sourceTree = "<group>"; };
+		DCEDBAD028DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEDBAA428DB616600B56644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBABD28DB616800B56644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBAC728DB616800B56644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCEDBA9E28DB616600B56644 = {
+			isa = PBXGroup;
+			children = (
+				DCEDBAA928DB616700B56644 /* SimpleMapApp */,
+				DCEDBAC328DB616800B56644 /* SimpleMapAppTests */,
+				DCEDBACD28DB616800B56644 /* SimpleMapAppUITests */,
+				DCEDBAA828DB616700B56644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEDBAA828DB616700B56644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDBAA728DB616700B56644 /* SimpleMapApp.app */,
+				DCEDBAC028DB616800B56644 /* SimpleMapAppTests.xctest */,
+				DCEDBACA28DB616800B56644 /* SimpleMapAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEDBAA928DB616700B56644 /* SimpleMapApp */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDBAAA28DB616700B56644 /* AppDelegate.swift */,
+				DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */,
+				DCEDBAAE28DB616700B56644 /* ViewController.swift */,
+				DCEDBAB028DB616700B56644 /* Main.storyboard */,
+				DCEDBAB628DB616800B56644 /* Assets.xcassets */,
+				DCEDBAB828DB616800B56644 /* LaunchScreen.storyboard */,
+				DCEDBABB28DB616800B56644 /* Info.plist */,
+				DCEDBAB328DB616700B56644 /* SimpleMapApp.xcdatamodeld */,
+			);
+			path = SimpleMapApp;
+			sourceTree = "<group>";
+		};
+		DCEDBAC328DB616800B56644 /* SimpleMapAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDBAC428DB616800B56644 /* SimpleMapAppTests.swift */,
+			);
+			path = SimpleMapAppTests;
+			sourceTree = "<group>";
+		};
+		DCEDBACD28DB616800B56644 /* SimpleMapAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDBACE28DB616800B56644 /* SimpleMapAppUITests.swift */,
+				DCEDBAD028DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift */,
+			);
+			path = SimpleMapAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEDBAA628DB616600B56644 /* SimpleMapApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDBAD428DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapApp" */;
+			buildPhases = (
+				DCEDBAA328DB616600B56644 /* Sources */,
+				DCEDBAA428DB616600B56644 /* Frameworks */,
+				DCEDBAA528DB616600B56644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMapApp;
+			productName = SimpleMapApp;
+			productReference = DCEDBAA728DB616700B56644 /* SimpleMapApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCEDBABF28DB616800B56644 /* SimpleMapAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDBAD728DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppTests" */;
+			buildPhases = (
+				DCEDBABC28DB616800B56644 /* Sources */,
+				DCEDBABD28DB616800B56644 /* Frameworks */,
+				DCEDBABE28DB616800B56644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEDBAC228DB616800B56644 /* PBXTargetDependency */,
+			);
+			name = SimpleMapAppTests;
+			productName = SimpleMapAppTests;
+			productReference = DCEDBAC028DB616800B56644 /* SimpleMapAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCEDBAC928DB616800B56644 /* SimpleMapAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEDBADA28DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppUITests" */;
+			buildPhases = (
+				DCEDBAC628DB616800B56644 /* Sources */,
+				DCEDBAC728DB616800B56644 /* Frameworks */,
+				DCEDBAC828DB616800B56644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEDBACC28DB616800B56644 /* PBXTargetDependency */,
+			);
+			name = SimpleMapAppUITests;
+			productName = SimpleMapAppUITests;
+			productReference = DCEDBACA28DB616800B56644 /* SimpleMapAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEDBA9F28DB616600B56644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DCEDBAA628DB616600B56644 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DCEDBABF28DB616800B56644 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DCEDBAA628DB616600B56644;
+					};
+					DCEDBAC928DB616800B56644 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DCEDBAA628DB616600B56644;
+					};
+				};
+			};
+			buildConfigurationList = DCEDBAA228DB616600B56644 /* Build configuration list for PBXProject "SimpleMapApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCEDBA9E28DB616600B56644;
+			productRefGroup = DCEDBAA828DB616700B56644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEDBAA628DB616600B56644 /* SimpleMapApp */,
+				DCEDBABF28DB616800B56644 /* SimpleMapAppTests */,
+				DCEDBAC928DB616800B56644 /* SimpleMapAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEDBAA528DB616600B56644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDBABA28DB616800B56644 /* LaunchScreen.storyboard in Resources */,
+				DCEDBAB728DB616800B56644 /* Assets.xcassets in Resources */,
+				DCEDBAB228DB616700B56644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBABE28DB616800B56644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBAC828DB616800B56644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEDBAA328DB616600B56644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDBAAF28DB616700B56644 /* ViewController.swift in Sources */,
+				DCEDBAAB28DB616700B56644 /* AppDelegate.swift in Sources */,
+				DCEDBAB528DB616700B56644 /* SimpleMapApp.xcdatamodeld in Sources */,
+				DCEDBAAD28DB616700B56644 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBABC28DB616800B56644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDBAC528DB616800B56644 /* SimpleMapAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEDBAC628DB616800B56644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEDBACF28DB616800B56644 /* SimpleMapAppUITests.swift in Sources */,
+				DCEDBAD128DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCEDBAC228DB616800B56644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEDBAA628DB616600B56644 /* SimpleMapApp */;
+			targetProxy = DCEDBAC128DB616800B56644 /* PBXContainerItemProxy */;
+		};
+		DCEDBACC28DB616800B56644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEDBAA628DB616600B56644 /* SimpleMapApp */;
+			targetProxy = DCEDBACB28DB616800B56644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCEDBAB028DB616700B56644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEDBAB128DB616700B56644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCEDBAB828DB616800B56644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCEDBAB928DB616800B56644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEDBAD228DB616800B56644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCEDBAD328DB616800B56644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEDBAD528DB616800B56644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleMapApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCEDBAD628DB616800B56644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleMapApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCEDBAD828DB616800B56644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMapApp.app/SimpleMapApp";
+			};
+			name = Debug;
+		};
+		DCEDBAD928DB616800B56644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleMapApp.app/SimpleMapApp";
+			};
+			name = Release;
+		};
+		DCEDBADB28DB616800B56644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleMapApp;
+			};
+			name = Debug;
+		};
+		DCEDBADC28DB616800B56644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y3KR73LK3M;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.egegrsn.SimpleMapAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleMapApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEDBAA228DB616600B56644 /* Build configuration list for PBXProject "SimpleMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDBAD228DB616800B56644 /* Debug */,
+				DCEDBAD328DB616800B56644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDBAD428DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDBAD528DB616800B56644 /* Debug */,
+				DCEDBAD628DB616800B56644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDBAD728DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDBAD828DB616800B56644 /* Debug */,
+				DCEDBAD928DB616800B56644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEDBADA28DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEDBADB28DB616800B56644 /* Debug */,
+				DCEDBADC28DB616800B56644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCEDBAB328DB616700B56644 /* SimpleMapApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCEDBAB428DB616700B56644 /* SimpleMapApp.xcdatamodel */,
+			);
+			currentVersion = DCEDBAB428DB616700B56644 /* SimpleMapApp.xcdatamodel */;
+			path = SimpleMapApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCEDBA9F28DB616600B56644 /* Project object */;
+}
