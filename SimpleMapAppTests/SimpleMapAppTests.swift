@@ -10,24 +10,20 @@ import XCTest
 
 class SimpleMapAppTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testItemViewModel(){
+        let category1 = Categories(title: "cafe")
+        let category2 = Categories(title: "fast food")
+        let items: [Items] = [Items(position: [123.12, 124.12], distance: 1000, title: "Starbucks", category: category1, id: "1231231312312"),
+                              Items(position: [321.21, 421.21], distance: 500, title: "Burger King", category: category2, id: "456456456456")]
+      
+        
+        let viewModel = Results(items: items)
+        XCTAssertEqual(viewModel.items[0].title, "Starbucks")
+        XCTAssertEqual(viewModel.items[0].position, [123.12, 124.12])
+        
+        XCTAssertEqual(viewModel.items[1].distance, 500)
+        XCTAssertEqual(viewModel.items[1].category.title, "fast food")
+        
     }
 
 }

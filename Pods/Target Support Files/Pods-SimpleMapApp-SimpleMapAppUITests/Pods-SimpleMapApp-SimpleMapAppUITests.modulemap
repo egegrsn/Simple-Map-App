@@ -1,0 +1,6 @@
+framework module Pods_SimpleMapApp_SimpleMapAppUITests {
+  umbrella header "Pods-SimpleMapApp-SimpleMapAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,7 +7,25 @@
 		<key>SimpleMapApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DCEDBAA628DB616600B56644</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCEDBABF28DB616800B56644</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DCEDBAC928DB616800B56644</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

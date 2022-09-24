@@ -1,0 +1,6 @@
+framework module Pods_SimpleMapApp {
+  umbrella header "Pods-SimpleMapApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

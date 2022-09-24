@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E9150DBA57367223A8523D /* Pods_SimpleMapAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F34CB44DF63894F2B88B9F5 /* Pods_SimpleMapAppTests.framework */; };
+		24F2B02519E06811A2661081 /* Pods_SimpleMapApp_SimpleMapAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE50E0071025D6FB028EAF23 /* Pods_SimpleMapApp_SimpleMapAppUITests.framework */; };
+		39223C95A46E07BE657D8856 /* Pods_SimpleMapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E6DCEDC220AA7EB6D5AD05 /* Pods_SimpleMapApp.framework */; };
+		DC3BFA5028DF8AD300E3EF8D /* Search+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFA4E28DF8AD300E3EF8D /* Search+CoreDataClass.swift */; };
+		DC3BFA5128DF8AD300E3EF8D /* Search+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3BFA4F28DF8AD300E3EF8D /* Search+CoreDataProperties.swift */; };
+		DCE0EF4D28DF096600395F39 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE0EF4C28DF096600395F39 /* Extensions.swift */; };
 		DCEDBAAB28DB616700B56644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAA28DB616700B56644 /* AppDelegate.swift */; };
 		DCEDBAAD28DB616700B56644 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */; };
 		DCEDBAAF28DB616700B56644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAAE28DB616700B56644 /* ViewController.swift */; };
@@ -17,6 +23,11 @@
 		DCEDBAC528DB616800B56644 /* SimpleMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAC428DB616800B56644 /* SimpleMapAppTests.swift */; };
 		DCEDBACF28DB616800B56644 /* SimpleMapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBACE28DB616800B56644 /* SimpleMapAppUITests.swift */; };
 		DCEDBAD128DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAD028DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift */; };
+		DCEDBADE28DB674100B56644 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBADD28DB674100B56644 /* Globals.swift */; };
+		DCEDBAE028DB695700B56644 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBADF28DB695700B56644 /* Service.swift */; };
+		DCEDBAE228DB766000B56644 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAE128DB766000B56644 /* ServiceModel.swift */; };
+		DCEDBAE428DE1E0400B56644 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAE328DE1E0400B56644 /* SearchViewController.swift */; };
+		DCEDBAE828DE3C7900B56644 /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEDBAE728DE3C7900B56644 /* ItemsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E6DCEDC220AA7EB6D5AD05 /* Pods_SimpleMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37F30A9EB3896BE95AC3C3B2 /* Pods-SimpleMapAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleMapAppTests/Pods-SimpleMapAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		412CC3B437194D5FEE2077C3 /* Pods-SimpleMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapApp.release.xcconfig"; path = "Target Support Files/Pods-SimpleMapApp/Pods-SimpleMapApp.release.xcconfig"; sourceTree = "<group>"; };
+		7F34CB44DF63894F2B88B9F5 /* Pods_SimpleMapAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMapAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9238291E5835D626CEE839C /* Pods-SimpleMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapApp.debug.xcconfig"; path = "Target Support Files/Pods-SimpleMapApp/Pods-SimpleMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CE50E0071025D6FB028EAF23 /* Pods_SimpleMapApp_SimpleMapAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMapApp_SimpleMapAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D100A1878923A3E45ACD2C57 /* Pods-SimpleMapApp-SimpleMapAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapApp-SimpleMapAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SimpleMapApp-SimpleMapAppUITests/Pods-SimpleMapApp-SimpleMapAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DC3BFA4E28DF8AD300E3EF8D /* Search+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DC3BFA4F28DF8AD300E3EF8D /* Search+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DCE0EF4C28DF096600395F39 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DCEDBAA728DB616700B56644 /* SimpleMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEDBAAA28DB616700B56644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +72,13 @@
 		DCEDBACA28DB616800B56644 /* SimpleMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEDBACE28DB616800B56644 /* SimpleMapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapAppUITests.swift; sourceTree = "<group>"; };
 		DCEDBAD028DB616800B56644 /* SimpleMapAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMapAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCEDBADD28DB674100B56644 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		DCEDBADF28DB695700B56644 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		DCEDBAE128DB766000B56644 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		DCEDBAE328DE1E0400B56644 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DCEDBAE728DE3C7900B56644 /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		F78720B8E6C54DD101D1C483 /* Pods-SimpleMapApp-SimpleMapAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapApp-SimpleMapAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SimpleMapApp-SimpleMapAppUITests/Pods-SimpleMapApp-SimpleMapAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FED39FAA544BDAB4D149C6F9 /* Pods-SimpleMapAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMapAppTests.release.xcconfig"; path = "Target Support Files/Pods-SimpleMapAppTests/Pods-SimpleMapAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39223C95A46E07BE657D8856 /* Pods_SimpleMapApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09E9150DBA57367223A8523D /* Pods_SimpleMapAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F2B02519E06811A2661081 /* Pods_SimpleMapApp_SimpleMapAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC3BFA4928DF8AAA00E3EF8D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DC3BFA4E28DF8AD300E3EF8D /* Search+CoreDataClass.swift */,
+				DC3BFA4F28DF8AD300E3EF8D /* Search+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		DCEDBA9E28DB616600B56644 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				DCEDBAC328DB616800B56644 /* SimpleMapAppTests */,
 				DCEDBACD28DB616800B56644 /* SimpleMapAppUITests */,
 				DCEDBAA828DB616700B56644 /* Products */,
+				EEDA1B133213E28458F7387A /* Pods */,
+				E69BACC3668AF35B640A6AD4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +143,19 @@
 		DCEDBAA928DB616700B56644 /* SimpleMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				DC3BFA4928DF8AAA00E3EF8D /* CoreData */,
 				DCEDBAAA28DB616700B56644 /* AppDelegate.swift */,
 				DCEDBAAC28DB616700B56644 /* SceneDelegate.swift */,
 				DCEDBAAE28DB616700B56644 /* ViewController.swift */,
+				DCEDBAE328DE1E0400B56644 /* SearchViewController.swift */,
+				DCEDBADD28DB674100B56644 /* Globals.swift */,
+				DCEDBADF28DB695700B56644 /* Service.swift */,
+				DCEDBAE128DB766000B56644 /* ServiceModel.swift */,
+				DCEDBAE728DE3C7900B56644 /* ItemsViewModel.swift */,
+				DCE0EF4C28DF096600395F39 /* Extensions.swift */,
 				DCEDBAB028DB616700B56644 /* Main.storyboard */,
-				DCEDBAB628DB616800B56644 /* Assets.xcassets */,
 				DCEDBAB828DB616800B56644 /* LaunchScreen.storyboard */,
+				DCEDBAB628DB616800B56644 /* Assets.xcassets */,
 				DCEDBABB28DB616800B56644 /* Info.plist */,
 				DCEDBAB328DB616700B56644 /* SimpleMapApp.xcdatamodeld */,
 			);
@@ -130,6 +179,29 @@
 			path = SimpleMapAppUITests;
 			sourceTree = "<group>";
 		};
+		E69BACC3668AF35B640A6AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04E6DCEDC220AA7EB6D5AD05 /* Pods_SimpleMapApp.framework */,
+				CE50E0071025D6FB028EAF23 /* Pods_SimpleMapApp_SimpleMapAppUITests.framework */,
+				7F34CB44DF63894F2B88B9F5 /* Pods_SimpleMapAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEDA1B133213E28458F7387A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9238291E5835D626CEE839C /* Pods-SimpleMapApp.debug.xcconfig */,
+				412CC3B437194D5FEE2077C3 /* Pods-SimpleMapApp.release.xcconfig */,
+				F78720B8E6C54DD101D1C483 /* Pods-SimpleMapApp-SimpleMapAppUITests.debug.xcconfig */,
+				D100A1878923A3E45ACD2C57 /* Pods-SimpleMapApp-SimpleMapAppUITests.release.xcconfig */,
+				37F30A9EB3896BE95AC3C3B2 /* Pods-SimpleMapAppTests.debug.xcconfig */,
+				FED39FAA544BDAB4D149C6F9 /* Pods-SimpleMapAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCEDBAD428DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapApp" */;
 			buildPhases = (
+				C6B65365800C271093CC6E75 /* [CP] Check Pods Manifest.lock */,
 				DCEDBAA328DB616600B56644 /* Sources */,
 				DCEDBAA428DB616600B56644 /* Frameworks */,
 				DCEDBAA528DB616600B56644 /* Resources */,
+				98F49CBB0D15120A9061784C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCEDBAD728DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppTests" */;
 			buildPhases = (
+				1F89F50B7E6E1C3A1BEA709D /* [CP] Check Pods Manifest.lock */,
 				DCEDBABC28DB616800B56644 /* Sources */,
 				DCEDBABD28DB616800B56644 /* Frameworks */,
 				DCEDBABE28DB616800B56644 /* Resources */,
@@ -172,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCEDBADA28DB616800B56644 /* Build configuration list for PBXNativeTarget "SimpleMapAppUITests" */;
 			buildPhases = (
+				40C0F5DAF8BA98583386444E /* [CP] Check Pods Manifest.lock */,
 				DCEDBAC628DB616800B56644 /* Sources */,
 				DCEDBAC728DB616800B56644 /* Frameworks */,
 				DCEDBAC828DB616800B56644 /* Resources */,
+				C2DB63BE4D1C32E40D45C5C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +333,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F89F50B7E6E1C3A1BEA709D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleMapAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40C0F5DAF8BA98583386444E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleMapApp-SimpleMapAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98F49CBB0D15120A9061784C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp/Pods-SimpleMapApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp/Pods-SimpleMapApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp/Pods-SimpleMapApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DB63BE4D1C32E40D45C5C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp-SimpleMapAppUITests/Pods-SimpleMapApp-SimpleMapAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp-SimpleMapAppUITests/Pods-SimpleMapApp-SimpleMapAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleMapApp-SimpleMapAppUITests/Pods-SimpleMapApp-SimpleMapAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B65365800C271093CC6E75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleMapApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCEDBAA328DB616600B56644 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DCEDBAAF28DB616700B56644 /* ViewController.swift in Sources */,
+				DC3BFA5028DF8AD300E3EF8D /* Search+CoreDataClass.swift in Sources */,
 				DCEDBAAB28DB616700B56644 /* AppDelegate.swift in Sources */,
+				DCEDBAE428DE1E0400B56644 /* SearchViewController.swift in Sources */,
 				DCEDBAB528DB616700B56644 /* SimpleMapApp.xcdatamodeld in Sources */,
+				DCEDBADE28DB674100B56644 /* Globals.swift in Sources */,
+				DCE0EF4D28DF096600395F39 /* Extensions.swift in Sources */,
+				DC3BFA5128DF8AD300E3EF8D /* Search+CoreDataProperties.swift in Sources */,
+				DCEDBAE228DB766000B56644 /* ServiceModel.swift in Sources */,
 				DCEDBAAD28DB616700B56644 /* SceneDelegate.swift in Sources */,
+				DCEDBAE028DB695700B56644 /* Service.swift in Sources */,
+				DCEDBAE828DE3C7900B56644 /* ItemsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +626,7 @@
 		};
 		DCEDBAD528DB616800B56644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9238291E5835D626CEE839C /* Pods-SimpleMapApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +655,7 @@
 		};
 		DCEDBAD628DB616800B56644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412CC3B437194D5FEE2077C3 /* Pods-SimpleMapApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +684,7 @@
 		};
 		DCEDBAD828DB616800B56644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F30A9EB3896BE95AC3C3B2 /* Pods-SimpleMapAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +710,7 @@
 		};
 		DCEDBAD928DB616800B56644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED39FAA544BDAB4D149C6F9 /* Pods-SimpleMapAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -544,6 +736,7 @@
 		};
 		DCEDBADB28DB616800B56644 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78720B8E6C54DD101D1C483 /* Pods-SimpleMapApp-SimpleMapAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -567,6 +760,7 @@
 		};
 		DCEDBADC28DB616800B56644 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D100A1878923A3E45ACD2C57 /* Pods-SimpleMapApp-SimpleMapAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
